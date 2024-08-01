@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button 
+    {
+        width: 30px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffc0cb;
+    }
+    #two
+    {
+        background-color: #00008b;
+    }
+    #three
+    {
+        background-color: #a52a2a;
+    }
+</style>
+<body id="body">
+    <button id="one"></button>
+    <button id="two"></button>
+    <button id="three"></button>
+
+
+</body>
+</html>
+<script>
+   let bd=document.getElementById("body");
+
+
+let pk=document.getElementById("one");
+let bl=document.getElementById("two");
+let br=document.getElementById("three");
+
+
+pk.onclick=pink;
+bl.ondblclick=blue;
+br.onmouseenter=brown;
+br.onmouseleave=white
+
+
+
+function pink()
+{
+
+    bd.style.backgroundColor="#ffc0cb";    
+}
+
+function blue()
+{
+
+    bd.style.backgroundColor="#00008b";    
+}
+
+function brown()
+{
+
+    bd.style.backgroundColor="#a52a2a";    
+}
+
+function white()
+{
+
+    bd.style.backgroundColor="#ffffff";    
+}
+
+</script>

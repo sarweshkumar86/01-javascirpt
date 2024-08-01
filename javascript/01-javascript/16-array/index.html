@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+// Array : In a single variable we can store mulitiple value ,with or different data type.
+
+let list =[10,20,30,40,50,60,70];
+let frutis=['mango','apple'];
+let school=['sumit',21,'guwahati','male'];
+
+
+console.log(list);
+console.log(frutis);
+console.log(school);
+
+
+console.log(list[0]);
+console.log(list[4])
+let count=list.length;
+console.log(`list has ${count} number`);
+
+let i;
+
+for(i=0;i<count ;i++)
+{
+    console.log(list[i]);
+}
+
+
+list.push(80);
+list.push(90);
+list.push(100);
+
+count=list.length;
+console.log(`list has ${count} number`);
+
+for(i=0;i<count ;i++)
+{
+    console.log(list[i]);
+}
+
+list.pop();
+list.pop();
+list.pop();
+list.pop();
+list.pop();
+count=list.length;
+console.log(`list has ${count} number`);
+
+for(i=0;i<count ;i++)
+{
+    console.log(list[i]);
+}
+
+
+list=[50,20,10,30,40];
+
+list.sort();
+
+console.log(list);
+for(i=0;i<count;i++)
+{
+    console.log(list[i]);
+}
+
+list.reverse();
+
+console.log(list);
+for(i=0;i<count;i++)
+{
+    console.log(list[i]);
+}
+
+
+</script>
